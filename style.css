@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Snell Roundhand', sans-serif;
+}
+
+
+#smagekasser .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+#smagekasser .top {
+    display: flex;
+    margin: 2rem;
+    padding: 4rem;
+}
+
+#smagekasser .image {
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+#smagekasser .txt {
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+
+#smagekasser .bottom {
+    flex-grow: 1;
+    flex-basis: 200px;
+    margin: 2rem;
+    padding: 4rem;
+}
+
+
+#bar1,
+#bar2,
+#bar3 {
+    width: 55px;
+    height: 10px;
+    background-color: black;
+    margin: 6px 0;
+    border-radius: 0.8rem;
+}
+
+
+
+@font-face {
+    font-family: 'Snell';
+    src: url('SnellBT-Regular.woff2') format('woff2'),
+        url('SnellBT-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+/*****KONTAKT*****/
+
+#kontakt h1 {
+    margin: 10px;
+    text-align: center;
+    border-bottom: 1px solid #656565;
+
+    font-size: 3.5rem;
+}
+
+#kontakt .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kontakt .col_billede {
+    flex-grow: 1;
+    flex-basis: 100xp;
+    margin: 20px;
+    padding: 20px;
+
+    width: 30vw;
+}
+
+#kontakt .tekst {
+    flex-grow: 2;
+    flex-basis: 300px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    line-height: 2;
+    height: 20vw;
+    align-items: center;
+    justify-content: center;
+}
