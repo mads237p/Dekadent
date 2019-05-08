@@ -10,7 +10,11 @@ img {
     width: 100%;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD .hidden {
+=======
+.hidden {
+>>>>>>> origin/master
     /*    display: none;*/
     /*    transform: scale(0);*/
     transform: translateX(-100%);
@@ -87,11 +91,19 @@ li {
     border-bottom: 1px solid #656565;
 }
 
+<<<<<<< HEAD
 =======h1 {
     font-family: 'Snell Roundhand', sans-serif;
 }
 
 > > > > > > > origin/master
+=======
+h1 {
+    font-family: 'Snell Roundhand', sans-serif;
+}
+
+
+>>>>>>> origin/master
 /*SMAGEKASSER FORSIDE*/
 
 #smagekasser .sectionwrapper {
@@ -115,6 +127,7 @@ li {
     flex-basis: 400px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD #smagekasser .top .txt {
     =======#smagekasser .txt {
         > > > > > > > origin/master flex-grow: 1;
@@ -260,3 +273,165 @@ li {
             align-items: center;
             justify-content: center;
         }
+=======
+#smagekasser .top .txt {
+
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+
+#smagekasser .bottom {
+    flex-grow: 1;
+
+}
+
+#burger {
+    position: absolute;
+    top: -6vw;
+    flex-basis: 200px;
+
+}
+
+
+#bar1,
+#bar2,
+#bar3 {
+    width: 55px;
+    height: 10px;
+    background-color: black;
+    margin: 0.4rem 0;
+    border-radius: 0.8rem;
+}
+
+
+/*SMAGEKASSER FORSIDE SLUT*/
+
+
+@font-face {
+    font-family: 'Snell';
+    src: url('SnellBT-Regular.woff2') format('woff2'),
+        url('SnellBT-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*****BESTILLING*****/
+
+
+
+
+#bestilling h1 {
+    margin: 10px;
+    text-align: center;
+    border-bottom: 1px solid #656565;
+
+    font-size: 3.5rem;
+}
+
+#bestilling .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bestilling .col_billede {
+    flex-grow: 1;
+    flex-basis: 100xp;
+    margin: 20px;
+    padding: 20px;
+
+    width: 30vw;
+}
+
+#bestilling .tekst {
+    flex-grow: 2;
+    flex-basis: 300px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    line-height: 2;
+    height: 20vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#bestilling. kontaktformular {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+/*****KONTAKT*****/
+
+#kontakt .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kontakt .col_billede {
+    flex-grow: 1;
+    flex-basis: 100xp;
+    margin: 20px;
+    padding: 20px;
+
+    width: 30vw;
+}
+
+#kontakt .tekst {
+    flex-grow: 2;
+    flex-basis: 300px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    line-height: 2;
+    height: 20vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+    #smagekasser {
+
+        margin: 0 10rem;
+        max-width: 80vw;
+    }
+    #menuknap {
+        display: none;
+    }
+    #menu.hidden {
+        transform: translateX(0);
+        display: block;
+    }
+    #menu li {
+        display: inline-block;
+    }
+}
+>>>>>>> origin/master
