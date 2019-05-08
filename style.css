@@ -10,7 +10,6 @@ img {
     width: 100%;
 }
 
-<<<<<<< HEAD
 .hidden {
     /*    display: none;*/
     /*    transform: scale(0);*/
@@ -87,12 +86,11 @@ li {
     margin: 0 2rem;
     border-bottom: 1px solid #656565;
 }
-=======
+
 h1 {
     font-family: 'Snell Roundhand', sans-serif;
 }
 
->>>>>>> origin/master
 
 /*SMAGEKASSER FORSIDE*/
 
@@ -117,29 +115,22 @@ li {
     flex-basis: 400px;
 }
 
-<<<<<<< HEAD
 #smagekasser .top .txt {
-=======
-#smagekasser .txt {
->>>>>>> origin/master
+
     flex-grow: 1;
     flex-basis: 500px;
 }
 
 #smagekasser .bottom {
     flex-grow: 1;
-<<<<<<< HEAD
 
 }
 
 #burger {
     position: absolute;
     top: -6vw;
-=======
     flex-basis: 200px;
-    margin: 2rem;
-    padding: 4rem;
->>>>>>> origin/master
+
 }
 
 
@@ -165,12 +156,10 @@ li {
     font-style: italic;
 }
 
-
-<<<<<<< HEAD
-
-@media only screen and (min-width: 600px) {
-=======
 /*****BESTILLING*****/
+
+
+
 
 #bestilling h1 {
     margin: 10px;
@@ -179,7 +168,6 @@ li {
 
     font-size: 3.5rem;
 }
->>>>>>> origin/master
 
 #bestilling .sectionwrapper {
     display: flex;
@@ -265,4 +253,25 @@ input[type=submit]:hover {
     height: 20vw;
     align-items: center;
     justify-content: center;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+    #smagekasser {
+
+        margin: 0 10rem;
+        max-width: 80vw;
+    }
+    #menuknap {
+        display: none;
+    }
+    #menu.hidden {
+        transform: translateX(0);
+        display: block;
+    }
+    #menu li {
+        display: inline-block;
+    }
 }
