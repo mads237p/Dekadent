@@ -4,87 +4,16 @@
 
 body {
     margin: 0;
-    width: 100%;
 }
 
 img {
     width: 100%;
 }
 
-.hidden {
-    /*    display: none;*/
-    /*    transform: scale(0);*/
-    transform: translateX(-100%);
-   display: none;
-
-}
-
-#splash {
-    background-position: 80% 55%;
-    overflow: hidden;
-}
-
-#menuknap {
-    position: absolute;
-    display: inline-block;
-    top: 10vw;
-    left: 10vw;
-
-}
-
-
-#menu {
-
-    list-style-type: none;
-    transition: transform .3s;
-    background-color: white;
-    padding: 1rem;
-    width: 100%;
-
-}
-
-
-#menu a {
-    line-height: 3rem;
-    padding: 2rem;
-    font-size: 2rem;
-    text-decoration: none;
-    color: #000;
-
-}
-
-#menu a:hover {
-    color: pink;
-}
-
-#menu a:active {
-    color: #000;
-}
-
-
-
-
-a {
-    font-family: 'Snell', sans-serif;
-}
-
-li {
-    list-style-type: none;
-}
-
 h1 {
-    font-family: 'Snell', sans-serif;
-    margin: 1rem;
-    font-size: 4rem;
-    text-align: center;
+    font-family: 'Snell Roundhand', sans-serif;
 }
 
-h2 {
-      font-family: 'Snell', sans-serif;
-    text-transform: capitalize;
-    font-size: 3rem;
-    margin: 0 2rem;
-}
 
 #smagekasser .sectionwrapper {
     display: flex;
@@ -92,42 +21,31 @@ h2 {
 
 }
 
+li {
+    list-style-type: none;
+}
 
 #smagekasser .top {
     display: flex;
-    flex-wrap: wrap;
-    margin: 6rem 0;
+    margin: 2rem;
+    padding: 4rem;
 }
 
 #smagekasser .image {
     flex-grow: 1;
-    flex-basis: 200px;
-    padding: 2rem;
+    flex-basis: 400px;
 }
 
-<<<<<<< HEAD
-#smagekasser .top .txt {
-=======
 #smagekasser .txt {
->>>>>>> origin/master
     flex-grow: 1;
-    flex-basis: 400px;
-    padding: 1rem;
+    flex-basis: 500px;
 }
 
 #smagekasser .bottom {
-   display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    margin: 0 2rem;
-    padding: 1rem;
-}
-
-#smagekasser .bottom .txt {
-    flex-basis: 400px;
     flex-grow: 1;
-
-
+    flex-basis: 200px;
+    margin: 2rem;
+    padding: 4rem;
 }
 
 
@@ -141,46 +59,83 @@ h2 {
     border-radius: 0.8rem;
 }
 
-p {
-    font-family: 'courier new', sans-serif;
-    font-size: 1.3rem;
-    line-height: 2rem;
-
-}
 
 
 @font-face {
     font-family: 'Snell';
-    src: url('fonts/SnellBT-Regular.woff') format('woff2'),
+    src: url('SnellBT-Regular.woff2') format('woff2'),
         url('SnellBT-Regular.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
 
 
-<<<<<<< HEAD
-@media only screen and (min-width: 600px) {
+/*****BESTILLING*****/
 
-    #smagekasser {
-        margin: 0 10rem;
-        max-width: 80vw;
-    }
-    #menuknap {
-        display: none;
-    }
+#bestilling h1 {
+    margin: 10px;
+    text-align: center;
+    border-bottom: 1px solid #656565;
 
-    #menu.hidden {
-        transform: translateX(0);
-        display: block;
-    }
-
-    #menu li {
-        display: inline-block;
-    }
+    font-size: 3.5rem;
 }
 
+#bestilling .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-=======
+#bestilling .col_billede {
+    flex-grow: 1;
+    flex-basis: 100xp;
+    margin: 20px;
+    padding: 20px;
+
+    width: 30vw;
+}
+
+#bestilling .tekst {
+    flex-grow: 2;
+    flex-basis: 300px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    line-height: 2;
+    height: 20vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#bestilling. kontaktformular {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
 
 /*****KONTAKT*****/
 
@@ -217,4 +172,3 @@ p {
     align-items: center;
     justify-content: center;
 }
->>>>>>> origin/master
