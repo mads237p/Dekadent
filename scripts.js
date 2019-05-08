@@ -15,7 +15,7 @@ function toggleMenu() {
     let erSkjult = document.querySelector("#menu").classList.contains("hidden");
 
     if (erSkjult == true) {
-        document.querySelector("#menuknap").textContent=("#burger");
+        document.querySelector("#menuknap").textContent = ""
     } else {
         document.querySelector("#menuknap").textContent = "X";
     }
