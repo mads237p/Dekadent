@@ -106,18 +106,17 @@ li {
     justify-content: center;
 }
 
-#bestilling. kontaktformular {
-    width: 100%;
+#bestilling. input[type=kontaktformular] {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+
 }
 
-input[type=submit] {
+. input[type=indsend] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -126,15 +125,17 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
+. input[type=indsend]:hover {
+    background-color: #4CAF50;
 }
+
 
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
+
 
 
 /*****KONTAKT*****/
