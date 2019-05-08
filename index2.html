@@ -4,22 +4,39 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Dekadent</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <header>
-        <nav>
-            <ul>
-                <li></li>
-            </ul>
-        </nav>
-    </header>
-
     <section id="bestilling">
 
+        <h1>Bestilling</h1>
+
+        <div class="sectionwrapper">
+            <div class="col_billede">
+                <img src="billeder/vinhylde.jpg" alt="vinhylde">
+            </div>
+            <div class="tekst">
+                <ul>
+                    <li>Vi tager desværre ikke imod bestillinger lige nu, men du kan
+                        skrive dig på vores venteliste, hvor du vil modtage info om den næste speciallavet smagekasse.</li>
+                </ul>
+                <div class="container">
+                    <form action="action_page.php">
+
+                        <label for="Navn">Navn</label>
+                        <input type="text" id="navn" name="Navn" placeholder="Dit navn..">
+
+                        <label for="E-mail">E-mail</label>
+                        <input type="text" id="e-mail" name="E-mail" placeholder="Din E-mail..">
+                        <input type="indsend" value="Indsend">
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
     </section>
     <script src="scripts.js"></script>
 </body>
