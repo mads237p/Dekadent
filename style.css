@@ -304,8 +304,29 @@ HEAD @media only screen and (min-width: 600px) {
         margin: 20px;
         padding: 20px;
 
+<<<<<<< HEAD
         width: 30vw;
     }
+=======
+<<<<<<< HEAD
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+=======
+    > > > > > > > origin/master
+    /*SMAGEKASSER FORSIDE*/
+>>>>>>> origin/master
+>>>>>>> origin/master
 
     #bestilling .tekst {
         flex-grow: 2;
